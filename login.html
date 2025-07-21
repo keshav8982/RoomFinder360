@@ -2,20 +2,24 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Login - RoomFinder 360</title>
-    <link rel="stylesheet" href="css/style.css">
+    <title>Login | Room Finder 360</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <h2>Login</h2>
-    <form>
-        <select>
-            <option>Admin</option>
-            <option>Room Owner</option>
-            <option>Room Seeker</option>
-        </select>
-        <input type="text" placeholder="Username" required>
-        <input type="password" placeholder="Password" required>
-        <button type="submit">Login</button>
-    </form>
+    <header><h1>Room Finder 360</h1></header>
+    <div class="container">
+        <h2>Login</h2>
+        <form action="#">
+            <input type="text" placeholder="Username" required>
+            <input type="password" placeholder="Password" required>
+            <select>
+                <option>Room Seeker</option>
+                <option>Room Owner</option>
+                <option>Admin</option>
+            </select>
+            <button type="submit">Login</button>
+            <p>Don't have an account? <a href="signup.html">Sign up</a></p>
+        </form>
+    </div>
 </body>
 </html>
