@@ -10,10 +10,10 @@ A responsive and professional room rental web platform. Helps users find or post
 - Interactive forms and mock functionality
 
 ## Technologies
-- HTML5
-- CSS3 (Flexbox, Grid, Animations)
-- JavaScript (Vanilla)
+- HTML
+- CSS
+- JavaScript
 - Responsive Design
 
 ## Live
-https://your-github-username.github.io/RoomFinder360
+https://keshav8982.github.io/RoomFinder360/
