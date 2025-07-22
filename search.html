@@ -1,26 +1,59 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <title>Search Rooms | Room Finder 360</title>
-    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>Seeker Dashboard - RoomFinder 360</title>
+    <link rel="stylesheet" href="style.css"/>
 </head>
 <body>
-    <header><h1>Search Rooms | Room Finder 360</h1></header>
-    <div class="container">
-        <h2>Available Rooms</h2>
-        <div class="room-list">
-            <div class="room-card">
-                <h3>Room in Delhi</h3>
-                <p>Location: Delhi NCR</p>
-                <p>Rent: ₹8000/month</p>
-            </div>
-            <div class="room-card">
-                <h3>Room in Mumbai</h3>
-                <p>Location: Andheri West</p>
-                <p>Rent: ₹10000/month</p>
+    <header class="main-header">
+        <div class="container">
+            <h1 class="logo">RoomFinder 360 - Seeker Panel</h1>
+            <nav class="navbar">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="seeker.html">Seeker Dashboard</a></li>
+                    <li><a href="login.html">Logout</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section class="dashboard">
+        <div class="container">
+            <h2>Welcome, Room Seeker!</h2>
+            <p class="info-text">Find your perfect room with ease. Your dashboard helps you manage everything.</p>
+            
+            <div class="dashboard-cards">
+                <div class="dashboard-card">
+                    <h3>Search Rooms</h3>
+                    <p>Browse listings by city, budget, amenities, and availability.</p>
+                    <a href="search.html" class="btn">Search Now</a>
+                </div>
+                <div class="dashboard-card">
+                    <h3>My Bookings</h3>
+                    <p>Check the status of your bookings, upcoming visits, and history.</p>
+                    <button class="btn">View My Bookings</button>
+                </div>
+                <div class="dashboard-card">
+                    <h3>Saved Rooms</h3>
+                    <p>Review rooms you've saved for comparison or later booking.</p>
+                    <button class="btn">Saved Rooms</button>
+                </div>
+                <div class="dashboard-card">
+                    <h3>Account Settings</h3>
+                    <p>Update your profile details, preferences, and notifications.</p>
+                    <button class="btn">Go to Settings</button>
+                </div>
             </div>
         </div>
-    </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2025 RoomFinder 360. All rights reserved. | Seeker Panel</p>
+        </div>
+    </footer>
 </body>
 </html>
