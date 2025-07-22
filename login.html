@@ -1,25 +1,51 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <title>Login | Room Finder 360</title>
-    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>Login - RoomFinder 360</title>
+    <link rel="stylesheet" href="style.css"/>
 </head>
 <body>
-    <header><h1>Room Finder 360</h1></header>
-    <div class="container">
-        <h2>Login</h2>
-        <form action="#">
-            <input type="text" placeholder="Username" required>
-            <input type="password" placeholder="Password" required>
-            <select>
-                <option>Room Seeker</option>
-                <option>Room Owner</option>
-                <option>Admin</option>
-            </select>
-            <button type="submit">Login</button>
-            <p>Don't have an account? <a href="signup.html">Sign up</a></p>
-        </form>
-    </div>
+    <header class="main-header">
+        <div class="container">
+            <h1 class="logo">RoomFinder 360</h1>
+            <nav class="navbar">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="search.html">Search</a></li>
+                    <li><a href="add-room.html">Add Room</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                    <li><a href="login.html">Login</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section class="login-section">
+        <div class="container login-form">
+            <h2>Login to Your Account</h2>
+            <form onsubmit="return loginUser()">
+                <input type="text" id="username" placeholder="Enter Username" required />
+                <input type="password" id="password" placeholder="Enter Password" required />
+                <select id="role" required>
+                    <option value="">Select Role</option>
+                    <option value="admin">Admin</option>
+                    <option value="owner">Room Owner</option>
+                    <option value="seeker">Room Seeker</option>
+                </select>
+                <button type="submit" class="btn">Login</button>
+                <p class="signup-link">Don't have an account? <a href="signup.html">Sign up here</a></p>
+            </form>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2025 RoomFinder 360. All rights reserved. | Designed by Keshav Vishwakarma</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
 </body>
 </html>
