@@ -1,21 +1,59 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <title>Add Room | Room Finder 360</title>
-    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>Owner Dashboard - RoomFinder 360</title>
+    <link rel="stylesheet" href="style.css"/>
 </head>
 <body>
-    <header><h1>Add Your Room | Room Finder 360</h1></header>
-    <div class="container">
-        <h2>Post Your Room</h2>
-        <form action="#">
-            <input type="text" placeholder="Room Title" required>
-            <input type="text" placeholder="Location" required>
-            <input type="number" placeholder="Rent (Rs.)" required>
-            <textarea placeholder="Description"></textarea>
-            <button type="submit">Post Room</button>
-        </form>
-    </div>
+    <header class="main-header">
+        <div class="container">
+            <h1 class="logo">RoomFinder 360 - Owner Panel</h1>
+            <nav class="navbar">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="owner.html">Owner Dashboard</a></li>
+                    <li><a href="login.html">Logout</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section class="dashboard">
+        <div class="container">
+            <h2>Welcome, Room Owner!</h2>
+            <p class="info-text">Manage your room listings and bookings from here.</p>
+            
+            <div class="dashboard-cards">
+                <div class="dashboard-card">
+                    <h3>Add New Room</h3>
+                    <p>Create a new room advertisement with all details and photos.</p>
+                    <a href="add-room.html" class="btn">Add Room</a>
+                </div>
+                <div class="dashboard-card">
+                    <h3>Manage Listings</h3>
+                    <p>Edit, update, or remove your existing room advertisements.</p>
+                    <button class="btn">Manage Listings</button>
+                </div>
+                <div class="dashboard-card">
+                    <h3>View Bookings</h3>
+                    <p>Track the status of bookings and communication with seekers.</p>
+                    <button class="btn">View Bookings</button>
+                </div>
+                <div class="dashboard-card">
+                    <h3>Owner Settings</h3>
+                    <p>Manage your profile, contact details, and preferences.</p>
+                    <button class="btn">Go to Settings</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2025 RoomFinder 360. All rights reserved. | Owner Panel</p>
+        </div>
+    </footer>
 </body>
 </html>
