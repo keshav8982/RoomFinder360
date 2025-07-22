@@ -14,7 +14,7 @@ body {
 
 /* Header */
 .main-header {
-    background: linear-gradient(to right, #ff416c, #ff4b2b, #ffa600);
+    background: linear-gradient(to right, #ff416c, #ff4b2b);
     color: #fff;
     padding: 20px 0;
 }
@@ -49,7 +49,7 @@ body {
 
 /* Hero Section */
 .hero-section {
-    background: linear-gradient(to right, #6a11cb, #2575fc, #43e97b);
+    background: linear-gradient(to right, #6a11cb, #2575fc);
     color: #fff;
     padding: 100px 0;
     text-align: center;
