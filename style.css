@@ -7,14 +7,14 @@
 }
 
 body {
-    background-color: #f0f8ff;
+    background-color: #fff0f5;
     color: #333;
     line-height: 1.6;
 }
 
 /* Header */
 .main-header {
-    background-color: #0077ff;
+    background: linear-gradient(90deg, #b5179e, #7209b7);
     color: #fff;
     padding: 20px 0;
 }
@@ -49,7 +49,7 @@ body {
 
 /* Hero Section */
 .hero-section {
-    background: linear-gradient(rgba(0, 119, 255, 0.7), rgba(0, 119, 255, 0.7)), url('https://via.placeholder.com/1200x400') center/cover;
+    background: linear-gradient(rgba(255, 192, 203, 0.8), rgba(114, 9, 183, 0.8)), url('https://via.placeholder.com/1200x400') center/cover;
     color: #fff;
     padding: 100px 0;
     text-align: center;
@@ -67,8 +67,8 @@ body {
 
 .btn {
     display: inline-block;
-    background-color: #00c853;
-    color: #fff;
+    background-color: #ffca28;
+    color: #222;
     padding: 12px 30px;
     border: none;
     text-decoration: none;
@@ -79,7 +79,7 @@ body {
 }
 
 .btn:hover {
-    background-color: #00a040;
+    background-color: #ffd54f;
 }
 
 /* Sections */
@@ -90,13 +90,13 @@ section {
 h2 {
     text-align: center;
     margin-bottom: 30px;
-    color: #333;
+    color: #5e548e;
     font-weight: 600;
 }
 
 h3 {
     margin: 10px 0;
-    color: #333;
+    color: #5e548e;
 }
 
 .info-text {
@@ -118,9 +118,9 @@ h3 {
 .dashboard-card,
 .room-card,
 .step {
-    background: #fff;
+    background: #fff8f0;
     padding: 20px;
-    border-radius: 15px;
+    border-radius: 20px;
     text-align: center;
     box-shadow: 0 4px 10px rgba(0,0,0,0.05);
     transition: 0.3s;
@@ -152,7 +152,7 @@ h3 {
 .contact-form {
     max-width: 500px;
     margin: 0 auto;
-    background: #fff;
+    background: #ffe4ec;
     padding: 30px;
     border-radius: 20px;
     box-shadow: 0 4px 12px rgba(0,0,0,0.05);
@@ -181,7 +181,7 @@ h3 {
     margin-bottom: 15px;
     border: 1px solid #ddd;
     border-radius: 10px;
-    background-color: #f9f9f9;
+    background-color: #fff;
     transition: 0.3s;
 }
 
@@ -194,7 +194,7 @@ h3 {
 .search-form select:focus,
 .contact-form input:focus,
 .contact-form textarea:focus {
-    border-color: #0077ff;
+    border-color: #7209b7;
     background-color: #fff;
 }
 
@@ -206,7 +206,7 @@ h3 {
 
 .signup-link a,
 .login-link a {
-    color: #0077ff;
+    color: #b5179e;
     text-decoration: none;
 }
 
@@ -231,7 +231,7 @@ h3 {
     flex: 1 1 300px;
     background-color: #fff;
     padding: 30px;
-    border-radius: 15px;
+    border-radius: 20px;
     box-shadow: 0 4px 12px rgba(0,0,0,0.05);
 }
 
@@ -245,7 +245,7 @@ h3 {
 
 /* Footer */
 .footer {
-    background-color: #0077ff;
+    background: linear-gradient(90deg, #b5179e, #7209b7);
     color: #fff;
     text-align: center;
     padding: 20px 0;
