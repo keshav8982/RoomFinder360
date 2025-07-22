@@ -1,20 +1,54 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <title>Contact | Room Finder 360</title>
-    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>Contact Us - RoomFinder 360</title>
+    <link rel="stylesheet" href="style.css"/>
 </head>
 <body>
-    <header><h1>Contact Us | Room Finder 360</h1></header>
-    <div class="container">
-        <h2>Get in Touch</h2>
-        <form action="#">
-            <input type="text" placeholder="Your Name" required>
-            <input type="email" placeholder="Your Email" required>
-            <textarea placeholder="Your Message" required></textarea>
-            <button type="submit">Send</button>
-        </form>
-    </div>
+    <header class="main-header">
+        <div class="container">
+            <h1 class="logo">RoomFinder 360 - Contact Us</h1>
+            <nav class="navbar">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="search.html">Search</a></li>
+                    <li><a href="login.html">Login</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section class="contact-section">
+        <div class="container">
+            <h2>We'd love to hear from you!</h2>
+            <p class="info-text">Whether you have a question about rooms, pricing, or anything else, our team is ready to answer all your questions.</p>
+            
+            <div class="contact-form-container">
+                <form class="contact-form">
+                    <input type="text" placeholder="Your Full Name" required />
+                    <input type="email" placeholder="Your Email Address" required />
+                    <input type="text" placeholder="Subject" required />
+                    <textarea placeholder="Your Message..." rows="5" required></textarea>
+                    <button type="submit" class="btn">Send Message</button>
+                </form>
+
+                <div class="contact-details">
+                    <h3>Our Office</h3>
+                    <p>RoomFinder 360 Pvt. Ltd.</p>
+                    <p>123 Startup Street, Bangalore, India</p>
+                    <p>Email: support@roomfinder360.com</p>
+                    <p>Phone: +91-9999-999-999</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2025 RoomFinder 360. All rights reserved. | Contact Support</p>
+        </div>
+    </footer>
 </body>
 </html>
