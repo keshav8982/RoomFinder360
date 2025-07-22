@@ -1,19 +1,59 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <title>Admin Dashboard | Room Finder 360</title>
-    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>Admin Dashboard - RoomFinder 360</title>
+    <link rel="stylesheet" href="style.css"/>
 </head>
 <body>
-    <header><h1>Admin Panel - Room Finder 360</h1></header>
-    <div class="container">
-        <h2>Manage Platform</h2>
-        <ul>
-            <li>View All Owners</li>
-            <li>View All Seekers</li>
-            <li>Manage Posted Rooms</li>
-        </ul>
-    </div>
+    <header class="main-header">
+        <div class="container">
+            <h1 class="logo">RoomFinder 360 - Admin Panel</h1>
+            <nav class="navbar">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="admin.html">Admin Dashboard</a></li>
+                    <li><a href="login.html">Logout</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section class="dashboard">
+        <div class="container">
+            <h2>Welcome, Admin!</h2>
+            <p class="info-text">Manage the platform efficiently using the tools below.</p>
+            
+            <div class="dashboard-cards">
+                <div class="dashboard-card">
+                    <h3>Manage Users</h3>
+                    <p>View, Edit, or Remove Room Seekers and Room Owners.</p>
+                    <button class="btn">Go to Users</button>
+                </div>
+                <div class="dashboard-card">
+                    <h3>Manage Rooms</h3>
+                    <p>Approve or Reject new room postings submitted by owners.</p>
+                    <button class="btn">Go to Rooms</button>
+                </div>
+                <div class="dashboard-card">
+                    <h3>View Reports</h3>
+                    <p>Monitor site activity, reported rooms, and user behavior analytics.</p>
+                    <button class="btn">Go to Reports</button>
+                </div>
+                <div class="dashboard-card">
+                    <h3>Platform Settings</h3>
+                    <p>Update terms, privacy policies, or other administrative content.</p>
+                    <button class="btn">Go to Settings</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2025 RoomFinder 360. All rights reserved. | Admin Panel</p>
+        </div>
+    </footer>
 </body>
 </html>
