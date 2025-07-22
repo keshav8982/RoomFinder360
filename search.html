@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>Search Rooms - RoomFinder 360</title>
+    <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+    <header class="main-header">
+        <div class="container">
+            <h1 class="logo">RoomFinder 360 - Search Rooms</h1>
+            <nav class="navbar">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="search.html">Search</a></li>
+                    <li><a href="login.html">Login</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section class="search-section">
+        <div class="container">
+            <h2>Find Your Perfect Room</h2>
+            <form class="search-form">
+                <input type="text" placeholder="Location (e.g., Delhi, Mumbai)" required />
+                <select>
+                    <option value="">Select Price Range</option>
+                    <option value="1">Under ₹5,000</option>
+                    <option value="2">₹5,000 - ₹10,000</option>
+                    <option value="3">Above ₹10,000</option>
+                </select>
+                <select>
+                    <option value="">Select Room Type</option>
+                    <option value="1bhk">1 BHK</option>
+                    <option value="2bhk">2 BHK</option>
+                    <option value="studio">Studio</option>
+                </select>
+                <button type="submit" class="btn">Search</button>
+            </form>
+        </div>
+    </section>
+
+    <section class="search-results">
+        <div class="container">
+            <h2>Search Results</h2>
+            <div class="rooms">
+                <div class="room-card">
+                    <img src="https://via.placeholder.com/300x200" alt="Room Delhi">
+                    <h3>1 BHK in Delhi</h3>
+                    <p>₹5,000/month | Fully Furnished</p>
+                    <button class="btn">View Details</button>
+                </div>
+                <div class="room-card">
+                    <img src="https://via.placeholder.com/300x200" alt="Room Mumbai">
+                    <h3>2 BHK in Mumbai</h3>
+                    <p>₹9,000/month | Semi-Furnished</p>
+                    <button class="btn">View Details</button>
+                </div>
+                <div class="room-card">
+                    <img src="https://via.placeholder.com/300x200" alt="Room Bangalore">
+                    <h3>Studio in Bangalore</h3>
+                    <p>₹7,500/month | Modern Amenities</p>
+                    <button class="btn">View Details</button>
+                </div>
+                <div class="room-card">
+                    <img src="https://via.placeholder.com/300x200" alt="Room Kolkata">
+                    <h3>1 BHK in Kolkata</h3>
+                    <p>₹6,000/month | Unfurnished</p>
+                    <button class="btn">View Details</button>
+                </div>
+                <div class="room-card">
+                    <img src="https://via.placeholder.com/300x200" alt="Room Pune">
+                    <h3>2 BHK in Pune</h3>
+                    <p>₹8,500/month | Fully Furnished</p>
+                    <button class="btn">View Details</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2025 RoomFinder 360. All rights reserved. | Search Rooms</p>
+        </div>
+    </footer>
+</body>
+</html>
