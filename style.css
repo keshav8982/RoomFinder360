@@ -60,7 +60,7 @@ body {
 .hero-section .container h2 {
     font-size: 40px;
     margin-bottom: 20px;
-    text-shadow: 3px 3px 6px rgba(0,0,0,0.8); /* heading shadow */
+  
 }
 
 .hero-section .container p {
