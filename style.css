@@ -17,7 +17,8 @@ body {
     background: linear-gradient(to right, #ff416c, #ff4b2b);
     color: #fff;
     padding: 20px 0;
-}
+    text-shadow : 3px 3px 3px rgba(0,0,0,0.5);
+} 
 
 .container {
     width: 90%;
